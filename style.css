@@ -1,0 +1,127 @@
+        .header 
+        {
+            display: flex;
+            justify-content: left;
+            margin-left: 20%;
+            gap: 30px;
+            font-family: "Segoe UI";
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .headerItem:hover{
+            color: rgb(255, 105, 0);
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+        .header2 {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            margin-left: 20%;
+            gap: 30px;
+            margin-top: 40px;
+            height: 70px;
+            max-width: 60%;
+        }
+        .header3 {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            margin-left: 20%;
+            gap: 30px;
+            font-family: "Segoe UI";
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 50px;
+            max-width: 60%;
+        }
+        .login {
+            display: flex;
+            align-items: center;
+            margin-left: 60%;
+        }
+        .loginButton {
+            border-radius: 9999px;
+            border: none;
+            font-size: 14px;
+            padding: 8px 16px;
+            background-color: rgb(243, 243, 247);
+            font-weight: 700;
+            font-family: "Segoe UI";            
+        }
+        .loginButton:hover{
+            cursor: pointer;
+            background-color: rgb(226, 226, 233);
+            transition: 0.3s ease;
+        }
+        .cart {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        .cartButton {
+            border-radius: 9999px;
+            border: none;
+            font-size: 14px;
+            padding: 8px 16px;
+            background-color: rgb(255, 105, 0);
+            font-weight: 700;
+            font-family: "Segoe UI";  
+            margin-left: 50%;          
+        }
+        .cartButton:hover{
+            cursor: pointer;
+            background-color: rgb(246, 102, 0);
+            transition: 0.3s ease;
+        }
+        .title {
+            display: flex;
+            justify-content: left;
+            margin-left: 20%;
+            font-family: "Segoe UI";
+            font-weight: 700;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-left: 20%;
+        }
+        .pizza {
+            background: white;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            height: 100%;
+            font-family: "Segoe UI";
+            font-weight: 700;
+            font-size: 20px;
+            
+        }
+        .description {
+            font-size: 14px;
+            font-weight: 500;
+            color: gray;
+            margin-top: 10px;
+            max-width: 200px;
+        }
+        .price {
+            display: flex;
+            justify-content: left;
+            margin-top: 30px;
+            gap: 40px;
+        }
+        .selectButton {
+            background-color: rgba(255, 105, 0, 0.1); 
+            color: #d15700;
+            border-radius: 9999px;
+            border: none;
+            padding: 8px 20px;
+            font-weight: 600;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; 
+        }
+        .selectButton:hover {
+            background-color: rgba(255, 105, 0, 0.2);
+        }
